@@ -1,4 +1,5 @@
 import React from "react";
+import CartWidget from './CartWidget.js'
 
 function NavBar () {
 
@@ -11,7 +12,7 @@ function NavBar () {
           </a>
         </nav>
   
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light menu1">
     <a class="navbar-brand" href="/src/html/inicio.html">CASA SECA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,9 +31,8 @@ function NavBar () {
         <li class="nav-item">
           <a class="nav-link disabled" href="/src/html/contacto.html">Contactou</a>
         </li>
-        <li>
-          <img src="https://thumbs.dreamstime.com/b/vector-de-icono-del-carro-la-compra-carrito-compras-vectores-eps-troleys-logo-web-iconos-tienda-bot%C3%B3n-moda-estilo-dise%C3%B1o-fla-192645977.jpg" width="30" heigth="30" alt="carrito"></img>
-        </li>
+        <CartWidget />
+
       </ul>
     </div>
   </nav>
